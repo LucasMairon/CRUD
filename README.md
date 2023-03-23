@@ -16,6 +16,8 @@
 - `git push -u origin main`
     -origin: destino(no caso ORIGIN è o github que foi adicionado quando fizemos o remote)
     -main: a ramificação ou branch que queremos atualizar
+- `git pull`
+    -o git pull traz as inforações que estão no github para o projeto localmente
 
 ### Se o usuario começou tudo pelo github
 - `git clone (link do repositorio que queremos clonar)`
