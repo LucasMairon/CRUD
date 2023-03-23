@@ -13,4 +13,6 @@ jobs:
     - name: Comando
       run: "echo 'ola,pessoas'"
     - name: Comando
-      run: "npm run lint"
+      run: |
+      npm install
+      npm run lint
