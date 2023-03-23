@@ -1,0 +1,15 @@
+{
+  "name": "crud-2023-03-20",
+  "version": "1.0.0",
+  "description": "- `git init`\r     -cria pasta .git e inicializa repositorio\r - `git add` ou (Stage Changes)\r     -Adiciona alterações dos arquivos em uma um espaço\r     -usando o `git add .` adiciona todos os arquivos nesse espaço\r - `git commit \"mensagem do commit\"`\r     -salva as alterações feitas no `git add` e da um nome para essas alterações\r         -a mensagem que enviamos junto do commit é o nome que será dado as alterações\r - `git status`\r     -mostra o status dos codigos/arquivos que estamos guardando para enviar ao github\r - `git remote add origin https://github.com/LucasMairon/CRUD.git`\r     -sincroniza o projeto local com o repositorio remoto que está no github(o bome do usuario e do repositorio devem ser alteraos para o de quem está fazendo)\r - `git push -u origin main`\r     -origin: destino(no caso ORIGIN è o github que foi adicionado quando fizemos o remote)\r     -main: a ramificação ou branch que queremos atualizar",
+  "main": "crud.js",
+  "scripts": {
+    "dev": "nodemon ./crud.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

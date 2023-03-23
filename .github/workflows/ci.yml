@@ -1,0 +1,11 @@
+name: continuos integrtion
+
+on:
+
+  pull request:
+    types:[opened,synchronize]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    - name: Comando
+      run: "echo 'ola,pessoas'"
