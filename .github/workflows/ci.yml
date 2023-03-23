@@ -1,16 +1,12 @@
-## Integração continua
-name: continuos integration
+name: continuos integrtion
 
 on:
 
   pull request:
     types:[opened,synchronize]
-
-# Temos varias tarefas    
 jobs:
-# O lint é uma tarefa
   lint:
-  # Tudo que vamos fazer vai rodar em uma maquina ubuntu na sua ultima versao, que é remota
     runs-on: ubuntu-latest
+    steps:
     - name: Comando
-      run: "echo 'ola,pessoas!'"
+      run: "echo 'ola,pessoas'"
