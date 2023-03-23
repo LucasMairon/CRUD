@@ -18,7 +18,18 @@
     - main: a ramificação ou branch que queremos atualizar
 - `git pull`
     - o git pull traz as inforações que estão no github para o projeto localmente
+- `git checkout -b nome-da-branch`
+    - cria uma nova branch com o nome escolhido e já coloca o usuario na branch
+- `git checkout nome-da-branch`
+    - muda para a branch que foi dada o nome, se ela ja existir
+- `git merge nome-da-branch`
+    - junta a branch atual com a que foi informado o nome
 
 ### Se o usuario começou tudo pelo github
-- `git clone (link do repositorio que queremos clonar)`
+- `git clone link-do-repositorio-que-queremos-clonar`
+
+## Qualidade
+- Linter
+    - ESLINT
+        - Padrão Airbnb
     
